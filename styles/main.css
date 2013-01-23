@@ -1,0 +1,325 @@
+/* Resets */
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Clearfix */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* Fonts */
+
+body,
+body a {
+	color: #474752;
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-size: 1em;
+}
+
+.banner,
+.banner a {
+	color: white;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.banner-btns,
+.banner-text {
+	font-size: 22px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.banner-text h1 {
+	font-size: 50px;
+	letter-spacing: -1px;
+	line-height: 55px;
+	padding-top: 100px;
+	text-transform: uppercase;
+}
+
+.banner-text p:nth-of-type(1) {
+	margin: -30px 0 20px 0;
+}
+
+.banner-text p:nth-of-type(2) {
+	margin: 60px 0 20px 0;
+	line-height: 35px;
+}
+
+.logo {
+	color: #648687;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+.widget p {
+	font-size: 15px;
+}
+
+footer {
+	font-size: 14px;
+}
+/* Backgrounds */
+
+html {
+	background: black;
+}
+
+.content {
+	background: url(../images/groovepaper.png) repeat;
+}
+
+.banner {
+	background: url(../images/driving-instructor.png) 0 0 no-repeat;
+	height: 600px;
+	position: relative;
+}
+
+body {
+	background: white;
+	margin: auto;
+	width: 1300px;
+}
+
+/* Buttons */
+
+.btn {
+	background: #474752;
+	color: white;
+	display: block;
+	padding: 20px 40px;
+	width: 220px;
+}
+
+.btn-small {
+	background: #474752;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	height: 30px;
+	width: 100px;
+}
+
+.btn-secondary {
+	background: #99cc33;
+}
+
+.btn-small:active,
+.btn:active {
+	background: #33333D;
+}
+
+a:active {
+	color: #33333D;
+}
+
+.btn-secondary:active {
+	background: #7FA82C;
+}
+
+.btn-submit {
+	border: none;
+	font-size: 1em;
+	height: 43px;
+	width: 236px;
+}
+
+/* Layout */
+
+.page-wrap {
+
+}
+
+h2,
+section {
+	margin: 0;
+}
+
+.container {
+	margin: auto;
+	text-align: center;
+	width: 1000px;
+
+}
+
+.content {
+	padding: 20px 0;
+}
+
+.copyright,
+.logo,
+.banner li,
+nav li {
+ 	display: block;
+ 	float: left;
+}
+
+header nav li {
+	line-height: 60px;
+}
+
+.banner-btns {
+	left: 290px;
+	position: absolute;
+	top: 380px;
+}
+
+.banner-btns .btn-secondary {
+	margin-left: 40px;
+}
+
+.content h2 {
+	padding-top: 50px;
+}
+
+.content p {
+	margin-top: 10px;
+}
+
+.content .widget {
+	background: white;
+	border-radius: 50%;
+	display: block;
+	float: left;
+	height: 200px;
+	margin: 100px 50px;
+	width: 200px;
+}
+
+.learn-widget {
+	background: url(../images/learn.png) 0 0 no-repeat;
+	display: block;
+	height: 100px;
+	left: 70px;
+	position: relative;
+	top: 50px;
+	width: 100px;
+}
+
+.graduate-widget {
+	background: url(../images/graduate.png) 0 0 no-repeat;
+	display: block;
+	height: 100px;
+	left: 72px;
+	position: relative;
+	top: 50px;
+	width: 100px;
+}
+
+.build-widget {
+	background: url(../images/build.png) 0 0 no-repeat;
+	display: block;
+	height: 100px;
+	left: 74px;
+	position: relative;
+	top: 50px;
+	width: 100px;
+}
+
+.widget p {
+	padding-top: 70px;
+}
+
+.content img {
+	margin: 50px 0;
+}
+
+.content,
+.action,
+.content .widget {
+	-webkit-box-shadow: 0 8px 6px -6px #ccc;
+	   -moz-box-shadow: 0 8px 6px -6px #ccc;
+	        box-shadow: 0 8px 6px -6px #ccc;
+}
+
+.action .container {
+	padding: 50px 0;
+}
+
+.action input {
+	display: block;
+	float: left;
+	padding: 10px;
+}
+
+.text-input {
+	border: 1px solid #ccc;
+	font-size: 1em;
+	height: 20px;
+	margin-right: 10px;
+	width: 350px;
+}
+
+.action form {
+	margin-top: 60px;
+	padding-bottom: 40px;
+}
+
+header, 
+footer {
+	height: 80px;
+}
+
+.twitter {
+	background: url(../images/twitter.png) 0 0 no-repeat;
+}
+
+.facebook {
+	background: url(../images/facebook.png) 0 0 no-repeat;
+	margin-left: 5px;
+}
+
+.social {
+	color: transparent;
+	display: block;
+	height: 30px;
+	width: 30px;
+	font: 0/0 a;
+}
+
+.faq {
+	margin-left: 389px;
+}
+
+.footer-nav {
+	margin-left: 30px;
+}
+
+footer nav {
+	margin-top: 30px;
+}
+
+.head-nav-home {
+	margin-left: 433px;
+}
+
+.head-nav {
+	margin-left: 30px;
+}
+
+header nav {
+	padding-top: 10px;
+}
+
+header h4 {
+	padding-top: 25px;
+}
+
+
+
